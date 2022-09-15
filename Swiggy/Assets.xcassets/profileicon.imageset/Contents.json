@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "20-203432_profile-icon-png-image-free-download-searchpng-ville.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

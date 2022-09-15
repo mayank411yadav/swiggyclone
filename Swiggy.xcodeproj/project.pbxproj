@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90B96BE289A80CC0089DB92 /* DiscountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96BC289A80CC0089DB92 /* DiscountCell.swift */; };
+		F90B96BF289A80CC0089DB92 /* DiscountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96BD289A80CC0089DB92 /* DiscountCell.xib */; };
+		F90B96C6289BD6390089DB92 /* FoodPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96C4289BD6390089DB92 /* FoodPageView.swift */; };
+		F90B96C7289BD6390089DB92 /* FoodPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96C5289BD6390089DB92 /* FoodPageView.xib */; };
+		F90B96CB289BD73E0089DB92 /* OffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96C9289BD73E0089DB92 /* OffCell.swift */; };
+		F90B96CC289BD73E0089DB92 /* OffCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96CA289BD73E0089DB92 /* OffCell.xib */; };
+		F90B96D0289BD79C0089DB92 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96CE289BD79C0089DB92 /* ItemCell.swift */; };
+		F90B96D1289BD79C0089DB92 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96CF289BD79C0089DB92 /* ItemCell.xib */; };
+		F90B96D428A0E4220089DB92 /* MartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96D228A0E4220089DB92 /* MartPageView.swift */; };
+		F90B96D528A0E4220089DB92 /* MartPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96D328A0E4220089DB92 /* MartPageView.xib */; };
+		F90B96DA28A0E8BA0089DB92 /* CouponsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96D828A0E8BA0089DB92 /* CouponsCell.swift */; };
+		F90B96DB28A0E8BA0089DB92 /* CouponsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96D928A0E8BA0089DB92 /* CouponsCell.xib */; };
+		F90B96DE28A0E8E50089DB92 /* GroceryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96DC28A0E8E50089DB92 /* GroceryCell.swift */; };
+		F90B96DF28A0E8E50089DB92 /* GroceryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96DD28A0E8E50089DB92 /* GroceryCell.xib */; };
+		F90B96E228A22CB30089DB92 /* GeniePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96E028A22CB30089DB92 /* GeniePageView.swift */; };
+		F90B96E328A22CB30089DB92 /* GeniePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96E128A22CB30089DB92 /* GeniePageView.xib */; };
+		F90B96F328A364B90089DB92 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96F128A364B90089DB92 /* OfferCell.swift */; };
+		F90B96F428A364B90089DB92 /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96F228A364B90089DB92 /* OfferCell.xib */; };
+		F90B96F828A36B820089DB92 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B96F628A36B820089DB92 /* TableCell.swift */; };
+		F90B96F928A36B820089DB92 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90B96F728A36B820089DB92 /* TableCell.xib */; };
+		F944AD7C28983C5C00299744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD7B28983C5C00299744 /* AppDelegate.swift */; };
+		F944AD7E28983C5C00299744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD7D28983C5C00299744 /* SceneDelegate.swift */; };
+		F944AD8028983C5C00299744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD7F28983C5C00299744 /* ViewController.swift */; };
+		F944AD8328983C5C00299744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F944AD8128983C5C00299744 /* Main.storyboard */; };
+		F944AD8528983C6000299744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F944AD8428983C6000299744 /* Assets.xcassets */; };
+		F944AD8828983C6000299744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F944AD8628983C6000299744 /* LaunchScreen.storyboard */; };
+		F944AD9128983DCB00299744 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD8F28983DCB00299744 /* HomeController.swift */; };
+		F944AD9228983DCB00299744 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F944AD9028983DCB00299744 /* HomeController.xib */; };
+		F944AD9428984D5900299744 /* HomeControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD9328984D5900299744 /* HomeControllerVC.swift */; };
+		F944AD9928984F1800299744 /* restuarantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944AD9728984F1800299744 /* restuarantCollectionViewCell.swift */; };
+		F944AD9A28984F1800299744 /* restuarantCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F944AD9828984F1800299744 /* restuarantCollectionViewCell.xib */; };
+		F944ADA22898520500299744 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADA02898520500299744 /* HomePageView.swift */; };
+		F944ADA32898520500299744 /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F944ADA12898520500299744 /* HomePageView.xib */; };
+		F944ADA5289857B800299744 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADA4289857B800299744 /* HomeVC.swift */; };
+		F944ADAB28985A0300299744 /* TabViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADAA28985A0300299744 /* TabViewC.swift */; };
+		F944ADAF289956B000299744 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADAE289956B000299744 /* FoodVC.swift */; };
+		F944ADB12899575100299744 /* MartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADB02899575100299744 /* MartVC.swift */; };
+		F944ADB32899579100299744 /* GenieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944ADB22899579100299744 /* GenieVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90B96BC289A80CC0089DB92 /* DiscountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCell.swift; sourceTree = "<group>"; };
+		F90B96BD289A80CC0089DB92 /* DiscountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountCell.xib; sourceTree = "<group>"; };
+		F90B96C4289BD6390089DB92 /* FoodPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPageView.swift; sourceTree = "<group>"; };
+		F90B96C5289BD6390089DB92 /* FoodPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodPageView.xib; sourceTree = "<group>"; };
+		F90B96C9289BD73E0089DB92 /* OffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffCell.swift; sourceTree = "<group>"; };
+		F90B96CA289BD73E0089DB92 /* OffCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffCell.xib; sourceTree = "<group>"; };
+		F90B96CE289BD79C0089DB92 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		F90B96CF289BD79C0089DB92 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		F90B96D228A0E4220089DB92 /* MartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartPageView.swift; sourceTree = "<group>"; };
+		F90B96D328A0E4220089DB92 /* MartPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MartPageView.xib; sourceTree = "<group>"; };
+		F90B96D828A0E8BA0089DB92 /* CouponsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsCell.swift; sourceTree = "<group>"; };
+		F90B96D928A0E8BA0089DB92 /* CouponsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsCell.xib; sourceTree = "<group>"; };
+		F90B96DC28A0E8E50089DB92 /* GroceryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCell.swift; sourceTree = "<group>"; };
+		F90B96DD28A0E8E50089DB92 /* GroceryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroceryCell.xib; sourceTree = "<group>"; };
+		F90B96E028A22CB30089DB92 /* GeniePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniePageView.swift; sourceTree = "<group>"; };
+		F90B96E128A22CB30089DB92 /* GeniePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeniePageView.xib; sourceTree = "<group>"; };
+		F90B96F128A364B90089DB92 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		F90B96F228A364B90089DB92 /* OfferCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
+		F90B96F628A36B820089DB92 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		F90B96F728A36B820089DB92 /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		F944AD7828983C5C00299744 /* Swiggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F944AD7B28983C5C00299744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F944AD7D28983C5C00299744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F944AD7F28983C5C00299744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F944AD8228983C5C00299744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F944AD8428983C6000299744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F944AD8728983C6000299744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F944AD8928983C6000299744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F944AD8F28983DCB00299744 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		F944AD9028983DCB00299744 /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		F944AD9328984D5900299744 /* HomeControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerVC.swift; sourceTree = "<group>"; };
+		F944AD9728984F1800299744 /* restuarantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restuarantCollectionViewCell.swift; sourceTree = "<group>"; };
+		F944AD9828984F1800299744 /* restuarantCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = restuarantCollectionViewCell.xib; sourceTree = "<group>"; };
+		F944ADA02898520500299744 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		F944ADA12898520500299744 /* HomePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageView.xib; sourceTree = "<group>"; };
+		F944ADA4289857B800299744 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F944ADAA28985A0300299744 /* TabViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewC.swift; sourceTree = "<group>"; };
+		F944ADAE289956B000299744 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		F944ADB02899575100299744 /* MartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartVC.swift; sourceTree = "<group>"; };
+		F944ADB22899579100299744 /* GenieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F944AD7528983C5C00299744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90B96C8289BD6A80089DB92 /* OffCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96C9289BD73E0089DB92 /* OffCell.swift */,
+				F90B96CA289BD73E0089DB92 /* OffCell.xib */,
+			);
+			path = OffCell;
+			sourceTree = "<group>";
+		};
+		F90B96CD289BD7690089DB92 /* ItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96CE289BD79C0089DB92 /* ItemCell.swift */,
+				F90B96CF289BD79C0089DB92 /* ItemCell.xib */,
+			);
+			path = ItemCell;
+			sourceTree = "<group>";
+		};
+		F90B96D628A0E7FB0089DB92 /* CouponsCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96D828A0E8BA0089DB92 /* CouponsCell.swift */,
+				F90B96D928A0E8BA0089DB92 /* CouponsCell.xib */,
+			);
+			path = CouponsCell;
+			sourceTree = "<group>";
+		};
+		F90B96D728A0E8470089DB92 /* GroceryCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96DC28A0E8E50089DB92 /* GroceryCell.swift */,
+				F90B96DD28A0E8E50089DB92 /* GroceryCell.xib */,
+			);
+			path = GroceryCell;
+			sourceTree = "<group>";
+		};
+		F90B96F028A364850089DB92 /* OfferCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96F128A364B90089DB92 /* OfferCell.swift */,
+				F90B96F228A364B90089DB92 /* OfferCell.xib */,
+			);
+			path = OfferCell;
+			sourceTree = "<group>";
+		};
+		F90B96F528A36B3C0089DB92 /* tableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96F628A36B820089DB92 /* TableCell.swift */,
+				F90B96F728A36B820089DB92 /* TableCell.xib */,
+			);
+			path = tableCell;
+			sourceTree = "<group>";
+		};
+		F944AD6F28983C5C00299744 = {
+			isa = PBXGroup;
+			children = (
+				F944AD7A28983C5C00299744 /* Swiggy */,
+				F944AD7928983C5C00299744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F944AD7928983C5C00299744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F944AD7828983C5C00299744 /* Swiggy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F944AD7A28983C5C00299744 /* Swiggy */ = {
+			isa = PBXGroup;
+			children = (
+				F944AD7B28983C5C00299744 /* AppDelegate.swift */,
+				F944AD7D28983C5C00299744 /* SceneDelegate.swift */,
+				F944AD7F28983C5C00299744 /* ViewController.swift */,
+				F944ADAA28985A0300299744 /* TabViewC.swift */,
+				F944AD8128983C5C00299744 /* Main.storyboard */,
+				F944AD8428983C6000299744 /* Assets.xcassets */,
+				F944AD8628983C6000299744 /* LaunchScreen.storyboard */,
+				F944AD8928983C6000299744 /* Info.plist */,
+				F944AD8F28983DCB00299744 /* HomeController.swift */,
+				F944AD9328984D5900299744 /* HomeControllerVC.swift */,
+				F944AD9028983DCB00299744 /* HomeController.xib */,
+				F944AD9528984DC400299744 /* SwiggyTab */,
+				F944ADA62898586500299744 /* FoodTab */,
+				F944ADA7289858FB00299744 /* MartTab */,
+				F944ADA92898595C00299744 /* GenieTab */,
+			);
+			path = Swiggy;
+			sourceTree = "<group>";
+		};
+		F944AD9528984DC400299744 /* SwiggyTab */ = {
+			isa = PBXGroup;
+			children = (
+				F944ADA4289857B800299744 /* HomeVC.swift */,
+				F944ADA02898520500299744 /* HomePageView.swift */,
+				F944ADA12898520500299744 /* HomePageView.xib */,
+				F944AD9628984E8A00299744 /* restuarantCollectionCell */,
+				F944AD9B28984F2C00299744 /* discountCell */,
+			);
+			path = SwiggyTab;
+			sourceTree = "<group>";
+		};
+		F944AD9628984E8A00299744 /* restuarantCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				F944AD9728984F1800299744 /* restuarantCollectionViewCell.swift */,
+				F944AD9828984F1800299744 /* restuarantCollectionViewCell.xib */,
+			);
+			path = restuarantCollectionCell;
+			sourceTree = "<group>";
+		};
+		F944AD9B28984F2C00299744 /* discountCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96BC289A80CC0089DB92 /* DiscountCell.swift */,
+				F90B96BD289A80CC0089DB92 /* DiscountCell.xib */,
+			);
+			path = discountCell;
+			sourceTree = "<group>";
+		};
+		F944ADA62898586500299744 /* FoodTab */ = {
+			isa = PBXGroup;
+			children = (
+				F944ADAE289956B000299744 /* FoodVC.swift */,
+				F90B96C4289BD6390089DB92 /* FoodPageView.swift */,
+				F90B96C5289BD6390089DB92 /* FoodPageView.xib */,
+				F90B96CD289BD7690089DB92 /* ItemCell */,
+				F90B96C8289BD6A80089DB92 /* OffCell */,
+			);
+			path = FoodTab;
+			sourceTree = "<group>";
+		};
+		F944ADA7289858FB00299744 /* MartTab */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96D628A0E7FB0089DB92 /* CouponsCell */,
+				F90B96D728A0E8470089DB92 /* GroceryCell */,
+				F944ADB02899575100299744 /* MartVC.swift */,
+				F90B96D228A0E4220089DB92 /* MartPageView.swift */,
+				F90B96D328A0E4220089DB92 /* MartPageView.xib */,
+			);
+			path = MartTab;
+			sourceTree = "<group>";
+		};
+		F944ADA92898595C00299744 /* GenieTab */ = {
+			isa = PBXGroup;
+			children = (
+				F90B96F528A36B3C0089DB92 /* tableCell */,
+				F90B96F028A364850089DB92 /* OfferCell */,
+				F944ADB22899579100299744 /* GenieVC.swift */,
+				F90B96E028A22CB30089DB92 /* GeniePageView.swift */,
+				F90B96E128A22CB30089DB92 /* GeniePageView.xib */,
+			);
+			path = GenieTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F944AD7728983C5C00299744 /* Swiggy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F944AD8C28983C6000299744 /* Build configuration list for PBXNativeTarget "Swiggy" */;
+			buildPhases = (
+				F944AD7428983C5C00299744 /* Sources */,
+				F944AD7528983C5C00299744 /* Frameworks */,
+				F944AD7628983C5C00299744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiggy;
+			productName = Swiggy;
+			productReference = F944AD7828983C5C00299744 /* Swiggy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F944AD7028983C5C00299744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F944AD7728983C5C00299744 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F944AD7328983C5C00299744 /* Build configuration list for PBXProject "Swiggy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F944AD6F28983C5C00299744;
+			productRefGroup = F944AD7928983C5C00299744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F944AD7728983C5C00299744 /* Swiggy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F944AD7628983C5C00299744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F944AD9228983DCB00299744 /* HomeController.xib in Resources */,
+				F90B96C7289BD6390089DB92 /* FoodPageView.xib in Resources */,
+				F90B96D1289BD79C0089DB92 /* ItemCell.xib in Resources */,
+				F90B96BF289A80CC0089DB92 /* DiscountCell.xib in Resources */,
+				F90B96D528A0E4220089DB92 /* MartPageView.xib in Resources */,
+				F90B96F428A364B90089DB92 /* OfferCell.xib in Resources */,
+				F90B96F928A36B820089DB92 /* TableCell.xib in Resources */,
+				F944AD8828983C6000299744 /* LaunchScreen.storyboard in Resources */,
+				F944AD9A28984F1800299744 /* restuarantCollectionViewCell.xib in Resources */,
+				F944AD8528983C6000299744 /* Assets.xcassets in Resources */,
+				F90B96DF28A0E8E50089DB92 /* GroceryCell.xib in Resources */,
+				F944AD8328983C5C00299744 /* Main.storyboard in Resources */,
+				F90B96CC289BD73E0089DB92 /* OffCell.xib in Resources */,
+				F944ADA32898520500299744 /* HomePageView.xib in Resources */,
+				F90B96E328A22CB30089DB92 /* GeniePageView.xib in Resources */,
+				F90B96DB28A0E8BA0089DB92 /* CouponsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F944AD7428983C5C00299744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F944ADB12899575100299744 /* MartVC.swift in Sources */,
+				F944AD9128983DCB00299744 /* HomeController.swift in Sources */,
+				F944AD8028983C5C00299744 /* ViewController.swift in Sources */,
+				F944ADB32899579100299744 /* GenieVC.swift in Sources */,
+				F944ADA5289857B800299744 /* HomeVC.swift in Sources */,
+				F944AD7C28983C5C00299744 /* AppDelegate.swift in Sources */,
+				F944AD7E28983C5C00299744 /* SceneDelegate.swift in Sources */,
+				F90B96DE28A0E8E50089DB92 /* GroceryCell.swift in Sources */,
+				F944ADAB28985A0300299744 /* TabViewC.swift in Sources */,
+				F90B96D428A0E4220089DB92 /* MartPageView.swift in Sources */,
+				F90B96E228A22CB30089DB92 /* GeniePageView.swift in Sources */,
+				F90B96D0289BD79C0089DB92 /* ItemCell.swift in Sources */,
+				F944AD9428984D5900299744 /* HomeControllerVC.swift in Sources */,
+				F944ADA22898520500299744 /* HomePageView.swift in Sources */,
+				F944ADAF289956B000299744 /* FoodVC.swift in Sources */,
+				F90B96C6289BD6390089DB92 /* FoodPageView.swift in Sources */,
+				F90B96CB289BD73E0089DB92 /* OffCell.swift in Sources */,
+				F90B96BE289A80CC0089DB92 /* DiscountCell.swift in Sources */,
+				F90B96F828A36B820089DB92 /* TableCell.swift in Sources */,
+				F944AD9928984F1800299744 /* restuarantCollectionViewCell.swift in Sources */,
+				F90B96DA28A0E8BA0089DB92 /* CouponsCell.swift in Sources */,
+				F90B96F328A364B90089DB92 /* OfferCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F944AD8128983C5C00299744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F944AD8228983C5C00299744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F944AD8628983C6000299744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F944AD8728983C6000299744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F944AD8A28983C6000299744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F944AD8B28983C6000299744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F944AD8D28983C6000299744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiggy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = V.Swiggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F944AD8E28983C6000299744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiggy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = V.Swiggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F944AD7328983C5C00299744 /* Build configuration list for PBXProject "Swiggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F944AD8A28983C6000299744 /* Debug */,
+				F944AD8B28983C6000299744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F944AD8C28983C6000299744 /* Build configuration list for PBXNativeTarget "Swiggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F944AD8D28983C6000299744 /* Debug */,
+				F944AD8E28983C6000299744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F944AD7028983C5C00299744 /* Project object */;
+}

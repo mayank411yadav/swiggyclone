@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OffCell" id="gTV-IL-0wX" customClass="OffCell" customModule="Swiggy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60u-l3-ZPB">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="246"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offCell" translatesAutoresizingMaskIntoConstraints="NO" id="gg3-ZO-ZkF">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="246"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gg3-ZO-ZkF" secondAttribute="bottom" id="7TM-Mf-m5U"/>
+                            <constraint firstItem="gg3-ZO-ZkF" firstAttribute="top" secondItem="60u-l3-ZPB" secondAttribute="top" id="IGH-XA-snm"/>
+                            <constraint firstItem="gg3-ZO-ZkF" firstAttribute="leading" secondItem="60u-l3-ZPB" secondAttribute="leading" id="OKJ-w5-1U8"/>
+                            <constraint firstAttribute="trailing" secondItem="gg3-ZO-ZkF" secondAttribute="trailing" id="lCg-iQ-oxT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="60u-l3-ZPB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hw8-d9-gbp"/>
+                <constraint firstAttribute="bottom" secondItem="60u-l3-ZPB" secondAttribute="bottom" id="STO-L6-fEy"/>
+                <constraint firstAttribute="trailing" secondItem="60u-l3-ZPB" secondAttribute="trailing" id="ZQs-nf-nEx"/>
+                <constraint firstItem="60u-l3-ZPB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="unX-eA-b8L"/>
+            </constraints>
+            <connections>
+                <outlet property="offImage" destination="gg3-ZO-ZkF" id="tah-R1-fO8"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="69.642857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="offCell" width="800" height="450"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
